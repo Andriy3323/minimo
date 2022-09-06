@@ -1,0 +1,156 @@
+@import url(sidebar.css);
+@import url(recommendations.css);
+@import url(subscription.css);
+@import url(additional.css);
+@import url(comment.css);
+
+.main-container {
+  margin: 0 auto;
+  padding: 0 40px 40px 40px;
+}
+
+.section-name {
+  margin-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #b4ad9e;
+}
+.section-title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 400;
+  content: "21312321";
+}
+.section-text {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.section-quote {
+  margin: 5%;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.main1 {
+  width: 100%;
+  max-width: 700px;
+  min-height: 400px;
+  max-height: 700px;
+  margin: 0 auto 40px;
+  background-image: url(../../../images/main1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main2 {
+  width: 100%;
+  max-width: 700px;
+  min-height: 400px;
+  max-height: 700px;
+  margin: 0 auto 40px;
+  background-image: url(../../../images/main2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main3 {
+  width: 100%;
+  max-width: 700px;
+  min-height: 400px;
+  max-height: 700px;
+  margin: 0 auto 40px;
+  background-image: url(../../../images/main3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.share {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.share-text {
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #b4ad9e;
+}
+.share-soc-media {
+  display: block;
+  width: 100%;
+  max-width: 18px;
+  max-height: 18px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.share-soc-media-fc {
+  background-image: url(../../../images/fb.svg);
+}
+.share-soc-media-tw {
+  background-image: url(../../../images/tw.svg);
+}
+.share-soc-media-g {
+  background-image: url(../../../images/g.svg);
+}
+.share-soc-media-tumbIr {
+  background-image: url(../../../images/tumblr.svg);
+}
+.share-soc-media-pint {
+  background-image: url(../../../images/pint.svg);
+}
+
+.pc-ver {
+  display: none;
+}
+
+.comment-link {
+  display: inline-block;
+  margin-bottom: 70px;
+
+  border-bottom: 1px solid transparent;
+
+  transition: 0.2s;
+}
+
+.comment-link:hover {
+  border-color: #c8c8c8;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-container {
+    margin: 0;
+    padding: 0 35px 70px 70px;
+  }
+  .section-text {
+    font-size: 18px;
+  }
+  .sidebar {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    display: block;
+  }
+
+  .tablet-ver {
+    display: none;
+  }
+
+  .pc-ver {
+    display: block;
+  }
+}

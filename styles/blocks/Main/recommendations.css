@@ -1,0 +1,77 @@
+.recommendations {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5%;
+
+  margin: 0 auto 70px;
+
+  width: 80%;
+}
+
+.post {
+  flex: 1 1 45%;
+
+  margin-bottom: 50px;
+}
+
+.poster {
+  margin: 0 auto 35px;
+
+  width: 100%;
+  min-height: 280px;
+  max-height: 380px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.festival {
+  background-image: url(../../../images/festival.png);
+}
+
+.coffee {
+  background-image: url(../../../images/coffee.png);
+}
+
+.dream {
+  background-image: url(../../../images/dream.png);
+
+  background-position: bottom;
+}
+
+.alps {
+  background-image: url(../../../images/alps.png);
+}
+
+.songs {
+  background-image: url(../../../images/songs.png);
+}
+
+.winter {
+  background-image: url(../../../images/winter.png);
+}
+
+.load-more {
+  display: block;
+
+  margin: 0 auto;
+
+  width: 170px;
+  height: 70px;
+
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: #626262;
+
+  border: 1px solid black;
+  border-color: #626262;
+  background-color: transparent;
+
+  transition: 0.3s;
+}
+
+.load-more:hover {
+  box-shadow: 0 5px 50px #c4c4c4;
+}

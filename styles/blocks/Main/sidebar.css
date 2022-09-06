@@ -1,0 +1,70 @@
+.sidebar {
+  display: none;
+  padding: 0 35px 70px 0;
+  min-width: 200px;
+  width: 275px;
+}
+
+.sb-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+.sb-img {
+  margin: 0 auto 20px;
+  min-width: 277px;
+  height: 177px;
+  background-image: url(../../../images/sidebar-img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sb-share {
+  margin-bottom: 20px;
+}
+
+.sb-share-soc-media {
+  display: inline-block;
+  margin-right: 5px;
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+
+.sb-fb {
+  background-image: url(../../../images/fb.svg);
+}
+
+.sb-inst {
+  background-image: url(../../../images/inst.svg);
+}
+
+.sb-pint {
+  background-image: url(../../../images/pint.svg);
+}
+
+.sb-list {
+  list-style-type: disc;
+  margin-bottom: 20px;
+}
+
+.sb-list-item {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  display: list-item;
+}
+
+.sb-comments-count {
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  color: #b4ad9e;
+}
+
+.sb-placeholder {
+  width: 250px;
+  height: 250px;
+  background-image: url(../../../images/placeholder.png);
+}

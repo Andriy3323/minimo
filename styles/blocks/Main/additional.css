@@ -1,0 +1,56 @@
+.additional-block {
+  margin-bottom: 35px;
+
+  background-color: #f5f5f5;
+}
+
+.addtnl-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addtnl-title {
+  margin-top: 35px;
+}
+
+.posters-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-self: center;
+}
+
+.addtnl-post {
+  margin-bottom: 35px;
+  width: 245px;
+
+  text-align: center;
+}
+
+.addtnl-poster {
+  margin-bottom: 15px;
+
+  height: 175px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .posters-container {
+    flex-direction: row;
+  }
+
+  .addtnl-poster:not(:last-child) {
+    margin-left: 35px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .additional-block {
+    display: none;
+  }
+}

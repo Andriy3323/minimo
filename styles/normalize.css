@@ -1,0 +1,13 @@
+html {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  scroll-behavior: smooth;
+}
+
+*::selection {
+  background: rgba(140, 150, 150, 0.6);
+}
+
+.cursor {
+  cursor: pointer;
+}

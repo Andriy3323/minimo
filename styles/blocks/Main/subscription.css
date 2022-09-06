@@ -1,0 +1,38 @@
+.subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 70px;
+
+  height: 300px;
+
+  background-color: #f0f0f0;
+}
+
+.sub-title {
+  line-height: 600%;
+  font-size: 30px;
+
+  color: #333;
+}
+
+.sub-input {
+  width: 360px;
+
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  line-height: 28px;
+
+  background-image: url(../../../images/arrow-submit.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: transparent;
+
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.sub-input:focus {
+  outline: none;
+}

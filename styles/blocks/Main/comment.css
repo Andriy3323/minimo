@@ -1,0 +1,126 @@
+.comment-container {
+  margin: 35px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 35px;
+}
+
+.comment-avatar {
+  min-width: 70px;
+  height: 70px;
+
+  margin: 0 35px 35px 0;
+
+  border-radius: 50%;
+
+  transition: 0.3s;
+}
+
+.comment-avatar:hover {
+  scale: 1.1;
+}
+
+.comment-name {
+  margin-bottom: 10px;
+
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.comment-text {
+  margin-bottom: 20px;
+}
+
+.comment-reply {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+}
+
+.comment-input {
+  padding-left: 10px;
+
+  min-width: 50vw;
+  height: 70px;
+
+  color: #626262;
+
+  border: 1px solid #c8c8c8;
+  border-radius: 10px;
+
+  transition: 0.2s;
+}
+
+.comment-input:hover {
+  background-color: #e0e0e0;
+}
+
+.comment-input:focus {
+  outline: none;
+
+  background-color: #f0f0f0;
+}
+
+.john {
+  background-image: url(../../../images/john.png);
+}
+
+.jane {
+  text-align: center;
+  line-height: 70px;
+
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+
+  color: #fff;
+
+  background-color: #cae5e0;
+}
+
+.jd {
+  text-align: center;
+  line-height: 70px;
+
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+
+  color: #fff;
+
+  background-color: #ededea;
+}
+
+.comment-connect {
+  display: flex;
+  justify-content: end;
+  gap: 10x;
+}
+
+.connect {
+  width: 18px;
+  height: 18px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.comment-tw {
+  margin: 0 15px;
+
+  background-image: url(../../../images/tw.svg);
+}
+
+.fb {
+  background-image: url(../../../images/fb.svg);
+}
+
+@media screen and (min-width: 768px) {
+  .comment-container {
+    margin: 70px;
+  }
+}
